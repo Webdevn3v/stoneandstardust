@@ -1,31 +1,27 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Style Your Space | Stone & Stardust</title>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Inspiration | Stone & Stardust</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--plum:#4a214f;--gold:#b9904d;--muted:#746776;--line:rgba(74,33,79,.15);--paper:#fffafc}
-*{box-sizing:border-box}body{margin:0;background:linear-gradient(#faf6f9,#f3eaf2);color:var(--plum);font-family:Manrope,sans-serif}
-.wrap{max-width:980px;margin:auto;padding:34px 20px 70px}a{color:#8a6b32;text-decoration:none}.ey{letter-spacing:.17em;text-transform:uppercase;font-size:.68rem;color:var(--gold);margin-top:34px}
-h1,h2{font-family:"Cormorant Garamond",serif}h1{font-size:clamp(2.6rem,6vw,4.3rem);line-height:.98;margin:12px 0 16px;max-width:760px}p{color:var(--muted);line-height:1.75;max-width:720px}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:34px}.card{background:rgba(255,250,252,.9);border:1px solid var(--line);border-radius:20px;padding:22px}
-.card h2{font-size:1.7rem;margin:18px 0 7px}.card p{font-size:.9rem;margin:0}.sketch{height:180px;border-radius:15px;background:linear-gradient(180deg,#f7f0f5,#fffafc);position:relative;overflow:hidden;border:1px solid rgba(74,33,79,.08)}
-.window{position:absolute;left:14%;right:14%;top:18%;bottom:14%;border:2px solid rgba(74,33,79,.18);border-bottom-width:5px}.window:before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:rgba(74,33,79,.13)}
-.line{position:absolute;width:1px;background:linear-gradient(var(--gold),rgba(185,144,77,.18));top:8%;transform-origin:top}.line:after{content:"";position:absolute;bottom:-6px;left:-4px;width:8px;height:8px;border:1px solid var(--gold);border-radius:50%}
-.single .a{left:50%;height:68%}.pair .a{left:30%;height:66%}.pair .b{right:30%;height:58%}.veil .a{left:28%;height:65%}.veil .b{left:41%;height:52%}.veil .c{left:55%;height:70%}.veil .d{left:68%;height:57%}
-.swag .curve{position:absolute;left:17%;right:17%;top:20%;height:52%;border-bottom:1px solid var(--gold);border-radius:0 0 50% 50%;transform:rotate(-2deg)}
-.swag .curve:after{content:"";position:absolute;right:0;bottom:-6px;width:8px;height:8px;border:1px solid var(--gold);border-radius:50%}
-.sun .ring{position:absolute;left:50%;top:23%;width:70px;height:70px;border:1px solid var(--gold);border-radius:50%;transform:translateX(-50%)}.sun .drop{left:50%;top:60%;height:24%}
-.note{margin-top:30px;padding:20px;border-left:2px solid var(--gold);background:rgba(255,250,252,.7)}
-@media(max-width:680px){.grid{grid-template-columns:1fr}.sketch{height:160px}}
-</style></head><body><main class="wrap">
-<a href="./">← Stone &amp; Stardust</a><p class="ey">Style your space</p><h1>Different ways to live with the strands.</h1>
-<p>This page is about placement, not collections. Use a single strand as a small window accent, pair pieces for balance, layer several into a Window Veil, or drape them across the top of a window for a softer swagged effect.</p>
-<section class="grid">
-<div class="card"><div class="sketch single"><div class="window"></div><span class="line a"></span></div><h2>Single Window Accent</h2><p>One strand placed where the light catches it. Simple, quiet and easy to add without changing the whole room.</p></div>
-<div class="card"><div class="sketch pair"><div class="window"></div><span class="line a"></span><span class="line b"></span></div><h2>Balanced Pair</h2><p>Two strands placed on opposite sides of a window for symmetry and a little more presence.</p></div>
-<div class="card"><div class="sketch veil"><div class="window"></div><span class="line a"></span><span class="line b"></span><span class="line c"></span><span class="line d"></span></div><h2>Window Veil</h2><p>Several individual strands layered intentionally so they read together as one fuller window treatment.</p></div>
-<div class="card"><div class="sketch swag"><div class="window"></div><span class="curve"></span></div><h2>Draped Window Swag</h2><p>A strand or grouped strands draped across the top or corner of a window for a looser, more decorative line.</p></div>
-<div class="card"><div class="sketch sun"><div class="window"></div><span class="ring"></span><span class="line drop"></span></div><h2>Suncatcher</h2><p>A shorter hanging piece designed around light and movement — easy in smaller windows, corners and layered displays.</p></div>
-</section>
-<div class="note"><strong>There is no one right way to hang them.</strong><p>Length, spacing and layering can change with the window and the room. The custom request is there when a specific size, palette or placement needs to be worked out.</p></div>
-<p style="margin-top:28px"><a href="custom-request.html">Make it yours →</a></p>
-</main></body></html>
+:root{--plum:#4a214f;--gold:#b9904d;--muted:#746776;--line:rgba(74,33,79,.15)}
+*{box-sizing:border-box}html,body{margin:0;background:#f8f2f7;color:var(--plum);font-family:Manrope,sans-serif}
+header{padding:16px 18px 10px}a{color:inherit;text-decoration:none}.back{font-size:.72rem;color:var(--muted)}
+h1{font-family:"Cormorant Garamond",serif;font-size:2rem;margin:14px 0 2px}.hint{font-size:.72rem;color:var(--muted);margin:0}
+.gallery{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch}.gallery::-webkit-scrollbar{display:none}
+.slide{position:relative;flex:0 0 100vw;height:72svh;scroll-snap-align:start;overflow:hidden;background:linear-gradient(145deg,#eee4ec,#fbf8fa)}
+.slide img{width:100%;height:100%;object-fit:cover;display:block}.placeholder{width:100%;height:100%;display:grid;place-items:center;background:radial-gradient(circle at 50% 35%,#fffafc,#eadde8)}
+.placeholder span{font-family:"Cormorant Garamond",serif;font-size:1.15rem;color:rgba(74,33,79,.42)}
+.name{position:absolute;left:0;right:0;bottom:0;padding:38px 18px 18px;background:linear-gradient(transparent,rgba(20,10,20,.62));color:white;font-family:"Cormorant Garamond",serif;font-size:1.45rem}
+.dots{text-align:center;padding:12px;font-size:.7rem;letter-spacing:.35em;color:var(--gold)}
+</style></head><body>
+<header><a class="back" href="door.html">← Back</a><h1>Inspiration</h1><p class="hint">Swipe through for a little inspiration →</p></header>
+<main class="gallery" aria-label="Stone & Stardust inspiration gallery">
+<section class="slide"><div class="placeholder"><span>Image coming soon</span></div><div class="name">Single Window Accent</div></section>
+<section class="slide"><div class="placeholder"><span>Image coming soon</span></div><div class="name">Balanced Pair</div></section>
+<section class="slide"><div class="placeholder"><span>Image coming soon</span></div><div class="name">Window Veil</div></section>
+<section class="slide"><div class="placeholder"><span>Image coming soon</span></div><div class="name">Draped Window Accent</div></section>
+<section class="slide"><div class="placeholder"><span>Image coming soon</span></div><div class="name">Suncatcher</div></section>
+</main><div class="dots">● ○ ○ ○ ○</div>
+<script>
+const g=document.querySelector('.gallery'),d=document.querySelector('.dots');
+g.addEventListener('scroll',()=>{const i=Math.round(g.scrollLeft/innerWidth);d.textContent=[0,1,2,3,4].map(n=>n===i?'●':'○').join(' ')},{passive:true});
+</script></body></html>
